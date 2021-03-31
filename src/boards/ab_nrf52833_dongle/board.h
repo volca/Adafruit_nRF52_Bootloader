@@ -22,8 +22,8 @@
  * THE SOFTWARE.
  */
 
-#ifndef _AB_NRF52840_DONGLE_H
-#define _AB_NRF52840_DONGLE_H
+#ifndef _AB_NRF52833_DONGLE_H
+#define _AB_NRF52833_DONGLE_H
 
 #define _PINNUM(port, pin)    ((port)*32 + (pin))
 
@@ -63,4 +63,4 @@
 #define UF2_BOARD_ID        "nRF52833-pca10100-v1"
 #define UF2_INDEX_URL       "https://www.nordicsemi.com/Software-and-Tools/Development-Kits/nRF52833-DK"
 
-#endif // _AB_NRF52840_DONGLE_H
+#endif // _AB_NRF52833_DONGLE_H
