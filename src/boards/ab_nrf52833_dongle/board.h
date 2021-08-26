@@ -50,7 +50,7 @@
 // BLE OTA
 //--------------------------------------------------------------------+
 #define BLEDIS_MANUFACTURER    "April Brother"
-#define BLEDIS_MODEL           "AB nRF52833 Dongle"
+#define BLEDIS_MODEL           "April USB Dongle 52833"
 
 //--------------------------------------------------------------------+
 // USB
@@ -59,8 +59,8 @@
 #define USB_DESC_UF2_PID       0x521F
 #define USB_DESC_CDC_ONLY_PID  0x521F
 
-#define UF2_PRODUCT_NAME    "AB nRF52833 Dongle"
-#define UF2_BOARD_ID        "nRF52833-pca10100-v1"
-#define UF2_INDEX_URL       "https://www.nordicsemi.com/Software-and-Tools/Development-Kits/nRF52833-DK"
+#define UF2_PRODUCT_NAME    "April USB Dongle 52833"
+#define UF2_BOARD_ID        "ab-dongle-52833"
+#define UF2_INDEX_URL       "https://wiki.aprbrother.com/en/BleUsbDongle.html#april-usb-dongle-52833"
 
 #endif // _AB_NRF52833_DONGLE_H
